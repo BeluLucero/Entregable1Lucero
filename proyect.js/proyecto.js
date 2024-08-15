@@ -29,18 +29,24 @@ alert ("Bienvenidos a Herbolity")
 
 function comprar (primerProducto, segundoProducto, tercerProducto)
 {for (let i=0; i<5; i=i+1)
-    console.log("este es i;", i)
+    console.log("este es i;", i);
     
-    let producto = number (0)
+    let producto = number (0);
 
-    console.log(producto)
-    alert ("carrito vacio")
+    console.log(producto);
+    alert ("Carrito vacio");
+}
+function comprar () {
+    return "Seguir comprando";
 }
 function confirmar (hecho, cantidadProductos)
 { let booleano = true
     if(confirmar)
-        console.log(booleano)
-    alert ("Gracias por su compra")
-    alert ("Que lo disfrute")
+        console.log(booleano);
+    alert ("Gracias por su compra");
+    alert ("Que lo disfrute");
     
+}
+function confirmar () {
+    return "Gracias vuelva pronto";
 }
